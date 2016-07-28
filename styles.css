@@ -6,20 +6,37 @@ body {
 
 img {
 	max-width: 100%
+	max-height: 100%;
 
 }
 
-a {
-	font-family: Poiret One;
-
-
+p {
+	font-size: 18px;
 }
+/*
+.center {
+	margin: auto;
+	width: 50%;
 
+}*/
 
 /*cover */
 
+
+.center-block() {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.container {
+	width: 100%;
+	.center-block();
+
+}
 #cover {
-	background: #222 url('images/header.jpg') center center no-repeat;
+	background: white url('http://placehold.it/350x150') center center no-repeat;
 	background-size: cover;
 	color: white;
 	height: 100%;
@@ -33,9 +50,21 @@ a {
 	width: 100%;
 }
 
+.section-content {
+	padding: 5rem 0;
+
+
+}
+
+
+.navbar {
+	margin-bottom: 0;
+}
+
 #nav-main.affix {
 		position: fixed;
 		top: 0;
+		padding-bottom: 0px;
 		width: 100%;
 	
 }
@@ -51,9 +80,24 @@ a {
 }
 
 
+
 .navbar-nav > li {
-	padding-left:30px;
-	padding-right:30px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 35px;
+	margin-right: 35px;
+	text-align: center;
+}
+
+.navbar-nav > li:hover a {
+	color:red;
+}
+
+.navbar-nav > li > a {
+	font-family: Poiret One;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
 
 }
 
@@ -62,7 +106,91 @@ a {
 	color: white;
 }
 
-.navbar .nav > li > a:hover 
+#rsvp {
+	background: white center center no-repeat;
+	background-size: cover;
+
+
+
+}
+.rsvp-form {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+
+}
+
+
+#schedule {
+	background: url('images/greenbuilding.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.schedule-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	padding: 1.875rem;
+
+}
+
+
+#stay {
+	background: url('images/Carroll1.jpg') center center no-repeat;
+	background-size: cover;
+	align-items: center;
+	height: 100%;
+}
+
+.stay-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	padding: 1.875rem;
+
+}
+
+#registry {
+	background: url('images/colombia.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+
+
+}
+
+.registry-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	padding: 1.875rem;
+
+}
+
+#party {
+	background: white center center no-repeat;
+	background-size: cover;
+	align-items: center;
+	height: 100%;
+
+
+}
+
+.party-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	padding: 1.875rem;
+
+}
+
+
+/*.navbar .nav > li > a:hover 
 	{
 		color: #5017E8;
 	}
@@ -71,4 +199,4 @@ a {
 	{
 		color: #5017E8;
 	}
-
+*/
